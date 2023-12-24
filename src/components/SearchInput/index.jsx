@@ -14,7 +14,7 @@ const SearchInput = () => {
     if (!query || query.trim() == "") return;
 
     if (e.key === "Enter") {
-      return router.push(`/result/${query}`);
+      return router.push(`/result?q=${query}`);
     }
   };
 

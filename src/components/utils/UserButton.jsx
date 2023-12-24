@@ -26,7 +26,7 @@ const UserButton = ({ user }) => {
         <div className="p-2 w-48 bg-white rounded-md absolute mt-2 right-0">
           <Link
             className="px-4 py-2 hover:bg-slate-200 rounded-md flex gap-5 items-center"
-            href={"/users/profile"}
+            href={"/users/profile?tab=collections"}
             onClick={() => setProfileActive(false)}
           >
             <FiUser className="inline w-4 h-4" />
